@@ -1,38 +1,40 @@
-.App {
+/* src/App.css */
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* color: #fff; */
+  /* background-image: url("/path-to-your-f1-background.jpg"); */
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  border-radius: 8px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #e10600; /* F1 red */
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div {
+  margin: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Responsive grid for standings */
+.standings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.standing,
+.race-result {
+  padding: 10px;
+  background-color: #222;
+  border-radius: 5px;
 }

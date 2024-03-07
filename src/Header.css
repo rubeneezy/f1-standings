@@ -1,0 +1,21 @@
+/* src/Header.css */
+
+.header-logo {
+  height: 50px; /* Adjust based on your preference */
+  margin-right: 20px; /* Space between the logo and title, if side by side */
+  vertical-align:; /* Aligns image nicely with the text if inline */
+}
+
+.site-header {
+  background-color: #000000; /* Dark background for the header */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid #e10600; /* F1 red accent */
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}

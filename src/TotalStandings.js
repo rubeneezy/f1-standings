@@ -7,7 +7,7 @@ const TotalStandings = ({ standings }) => (
     <h2>Total Standings</h2>
     {standings.map((standing, index) => (
       <div key={index}>
-        {standing.name}: {standing.points} points
+        P{index + 1}:  {standing.name} with {standing.points} points
       </div>
     ))}
   </div>

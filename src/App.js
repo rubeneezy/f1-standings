@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header /> {/* Add the Header component here */}
+      <Header /> 
       <RaceResults results={raceResults} />
       <TotalStandings standings={totalStandings} />
     </div>

@@ -3,16 +3,15 @@
 body {
   font-family: "Roboto", sans-serif;
   /* color: #fff; */
-  /* background-image: url("/path-to-your-f1-background.jpg"); */
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
 .App {
-  padding: 10px;
+  /* padding: 10px; */
   /* background-color: rgba(0, 0, 0, 0.75); */
-  border-radius: 8px;
+  /* border-radius: 8px; */
   margin: auto;
 }
 
@@ -22,7 +21,7 @@ h2 {
 }
 
 div {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
 /* Responsive grid for standings */

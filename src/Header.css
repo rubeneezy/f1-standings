@@ -3,7 +3,6 @@
 .header-logo {
   height: 50px; /* Adjust based on your preference */
   margin-right: 20px; /* Space between the logo and title, if side by side */
-  vertical-align:; /* Aligns image nicely with the text if inline */
 }
 
 .site-header {
